@@ -1,0 +1,11 @@
+= form_tag('/call') do
+  .field
+    = label_tag "Your Phone Number"
+    br
+    = text_field_tag :my_phone_number
+  .field
+    = label_tag "Phone Number To Dial"
+    br
+    = text_field_tag :other_phone_number
+  .actions
+    = submit_tag "call"
