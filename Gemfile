@@ -17,6 +17,7 @@ gem 'spring',        group: :development
 gem 'slim-rails'
 gem 'faraday'
 gem 'hashie'
+gem 'puma'
 
 gem "therubyracer"
 gem "less-rails"
